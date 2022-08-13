@@ -36,7 +36,7 @@ Go to ‘opt/metasploit-framework/bin’ and follow the steps to get the reverse
 
 $ ./msfconsole
 
-![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/5.png)
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/5.jpg)
 
 $ use exploit/multi/handler
 
