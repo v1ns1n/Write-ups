@@ -17,7 +17,7 @@ Its best-known sub-project is the open source Metasploit Framework, a tool for d
 Exploitation to get an android reverse shell
 Connect to the remote target device(genymotion/android) using adb
 
-![1]([Images/Documentations/Metasploit_for_Android/1.jpg](https://github.com/v1ns3c/Write-ups/blob/efa9b7c48ef35f5b35c27813c16c9c08a0e2a4ed/Images/Documentations/Metasploit_for_Android/1.jpg))
+![](https://github.com/v1ns3c/Write-ups/blob/efa9b7c48ef35f5b35c27813c16c9c08a0e2a4ed/Images/Documentations/Metasploit_for_Android/1.jpg)
 
 1) Steps to generate an apk with the reverse_tcp payload
 Go to ‘opt/metasploit-framework/bin’ and enter the following command to generate an apk
